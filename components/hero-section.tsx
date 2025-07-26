@@ -6,15 +6,16 @@ export default function HeroSection() {
     <section className="relative w-full min-h-screen flex items-center justify-center bg-foodco-white text-center py-12 px-4 md:px-6 lg:py-24 overflow-hidden">
       {/* Subtle background texture/gradient - simulating premium feel */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-foodco-white opacity-50"></div>
-      <div className="relative z-10 max-w-4xl mx-auto space-y-8 text-left">
+      <div className="relative z-10 max-w-4xl mx-auto space-y-6 sm:space-y-8 text-left">
         {/* Logo Food&Co em destaque */}
-        <div className="mb-4">
+        <div className="mb-6 sm:mb-8">
           <Image
-            src="/images/foodco-logo-final.png"
+            src="/images/foodco-logo-latest.png"
             alt="Food&Co Logo"
-            width={200} // Base width
-            height={80} // Base height
-            className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto mr-auto" // Responsive height, auto width
+            width={400}
+            height={160}
+            className="h-20 sm:h-24 md:h-32 lg:h-40 xl:h-44 w-auto mr-auto"
+            priority
           />
         </div>
 

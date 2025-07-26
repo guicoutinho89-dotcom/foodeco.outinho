@@ -67,12 +67,12 @@ export default function OfferSection() {
           </a>
         </div>
 
-        {/* Imagens dos ingredientes frescos */}
+        {/* Imagens dos clientes aproveitando a experiência Food&Co */}
         <div className="grid gap-4 sm:gap-6 md:grid-cols-2 mt-8 sm:mt-12">
           <div className="relative w-full h-40 sm:h-48 rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/foodco-couple-dining.jpeg"
-              alt="Casal jantando com caixa Food&Co"
+              src="/images/couple-dining-premium.png"
+              alt="Casal desfrutando de jantar romântico com Food&Co"
               fill
               objectFit="cover"
               className="rounded-lg"
@@ -80,8 +80,8 @@ export default function OfferSection() {
           </div>
           <div className="relative w-full h-40 sm:h-48 rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/foodco-man-eating.jpeg"
-              alt="Homem comendo massa com caixa Food&Co"
+              src="/images/man-enjoying-meal.png"
+              alt="Homem saboreando refeição premium Food&Co"
               fill
               objectFit="cover"
               className="rounded-lg"
